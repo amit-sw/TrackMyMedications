@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TrackMyMedicationsApp: App {
+    @StateObject var history=History()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(history)
         }
     }
 }

@@ -11,6 +11,15 @@
 		AA6D0E4B26A4D35800B96BD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E4A26A4D35800B96BD6 /* ContentView.swift */; };
 		AA6D0E4D26A4D35A00B96BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0E4C26A4D35A00B96BD6 /* Assets.xcassets */; };
 		AA6D0E5026A4D35A00B96BD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0E4F26A4D35A00B96BD6 /* Preview Assets.xcassets */; };
+		AA6D0E5826A4D37100B96BD6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E5726A4D37100B96BD6 /* Menu.swift */; };
+		AA6D0E5A26A4D51800B96BD6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E5926A4D51800B96BD6 /* Helper.swift */; };
+		AA6D0E5C26A4D52400B96BD6 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = AA6D0E5B26A4D52400B96BD6 /* menu.json */; };
+		AA6D0E5E26A4D9E500B96BD6 /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E5D26A4D9E500B96BD6 /* MedicationView.swift */; };
+		AA6D0E6026A4DA0100B96BD6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E5F26A4DA0100B96BD6 /* HistoryView.swift */; };
+		AA6D0E6226A4DB6D00B96BD6 /* MedicationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E6126A4DB6D00B96BD6 /* MedicationRow.swift */; };
+		AA6D0E6426A4DBC900B96BD6 /* MedicationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E6326A4DBC900B96BD6 /* MedicationDetail.swift */; };
+		AA6D0E6826A500BF00B96BD6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E6726A500BF00B96BD6 /* History.swift */; };
+		AA6D0E6A26A516A100B96BD6 /* ResetMedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D0E6926A516A100B96BD6 /* ResetMedicationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,16 @@
 		AA6D0E4C26A4D35A00B96BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6D0E4F26A4D35A00B96BD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA6D0E5126A4D35A00B96BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6D0E5726A4D37100B96BD6 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AA6D0E5926A4D51800B96BD6 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AA6D0E5B26A4D52400B96BD6 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		AA6D0E5D26A4D9E500B96BD6 /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		AA6D0E5F26A4DA0100B96BD6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AA6D0E6126A4DB6D00B96BD6 /* MedicationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationRow.swift; sourceTree = "<group>"; };
+		AA6D0E6326A4DBC900B96BD6 /* MedicationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetail.swift; sourceTree = "<group>"; };
+		AA6D0E6726A500BF00B96BD6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		AA6D0E6926A516A100B96BD6 /* ResetMedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetMedicationsView.swift; sourceTree = "<group>"; };
+		AA6D0E6B26A6688600B96BD6 /* TrackMyMedications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackMyMedications.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +71,18 @@
 		AA6D0E4726A4D35800B96BD6 /* TrackMyMedications */ = {
 			isa = PBXGroup;
 			children = (
+				AA6D0E6B26A6688600B96BD6 /* TrackMyMedications.entitlements */,
 				AA6D0E4826A4D35800B96BD6 /* TrackMyMedicationsApp.swift */,
+				AA6D0E5B26A4D52400B96BD6 /* menu.json */,
 				AA6D0E4A26A4D35800B96BD6 /* ContentView.swift */,
+				AA6D0E5D26A4D9E500B96BD6 /* MedicationView.swift */,
+				AA6D0E6126A4DB6D00B96BD6 /* MedicationRow.swift */,
+				AA6D0E6326A4DBC900B96BD6 /* MedicationDetail.swift */,
+				AA6D0E5F26A4DA0100B96BD6 /* HistoryView.swift */,
+				AA6D0E6926A516A100B96BD6 /* ResetMedicationsView.swift */,
+				AA6D0E6726A500BF00B96BD6 /* History.swift */,
+				AA6D0E5926A4D51800B96BD6 /* Helper.swift */,
+				AA6D0E5726A4D37100B96BD6 /* Menu.swift */,
 				AA6D0E4C26A4D35A00B96BD6 /* Assets.xcassets */,
 				AA6D0E5126A4D35A00B96BD6 /* Info.plist */,
 				AA6D0E4E26A4D35A00B96BD6 /* Preview Content */,
@@ -126,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6D0E5C26A4D52400B96BD6 /* menu.json in Resources */,
 				AA6D0E5026A4D35A00B96BD6 /* Preview Assets.xcassets in Resources */,
 				AA6D0E4D26A4D35A00B96BD6 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6D0E6826A500BF00B96BD6 /* History.swift in Sources */,
+				AA6D0E5826A4D37100B96BD6 /* Menu.swift in Sources */,
+				AA6D0E6426A4DBC900B96BD6 /* MedicationDetail.swift in Sources */,
+				AA6D0E6026A4DA0100B96BD6 /* HistoryView.swift in Sources */,
+				AA6D0E6A26A516A100B96BD6 /* ResetMedicationsView.swift in Sources */,
+				AA6D0E5E26A4D9E500B96BD6 /* MedicationView.swift in Sources */,
+				AA6D0E6226A4DB6D00B96BD6 /* MedicationRow.swift in Sources */,
 				AA6D0E4B26A4D35800B96BD6 /* ContentView.swift in Sources */,
 				AA6D0E4926A4D35800B96BD6 /* TrackMyMedicationsApp.swift in Sources */,
+				AA6D0E5A26A4D51800B96BD6 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackMyMedications/TrackMyMedications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TrackMyMedications/Preview Content\"";
 				DEVELOPMENT_TEAM = T4JB96P77H;
 				ENABLE_PREVIEWS = YES;
@@ -279,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.TrackMyMedications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,7 +330,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackMyMedications/TrackMyMedications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"TrackMyMedications/Preview Content\"";
 				DEVELOPMENT_TEAM = T4JB96P77H;
 				ENABLE_PREVIEWS = YES;
@@ -301,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.TrackMyMedications;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,124 @@
+[
+    {
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Daily",
+        "items": [
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD1",
+                "mainName": "Tylenol",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "325mgx2",
+                "frequency": 6,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD2",
+                "mainName": "Oxycodone",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "5mg",
+                "frequency": 2,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD3",
+                "mainName": "Allopurino",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "100mg",
+                "frequency": 1,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD4",
+                "mainName": "Pepcid",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "20mg",
+                "frequency": 1,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD5",
+                "mainName": "Acyclovir",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "400mg",
+                "frequency": 2,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD6",
+                "mainName": "Metformin",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "1000mg",
+                "frequency": 2,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD7",
+                "mainName": "Lisinopril",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "20mg",
+                "frequency": 1,
+                "taken": []
+            },
+            {
+                "id": "DDCD038C-036F-4C40-826F-61C88CD84DD8",
+                "mainName": "Aspirin",
+                "genericName": "g",
+                "description": "d",
+                "instructions": "i",
+                "sideEffects": "s",
+                "dosage": "81mg",
+                "frequency": 1,
+                "taken": []
+            }
+        ]
+    },
+    {
+        "name": "As needed",
+                "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+                "items": [
+                    {
+                        "id": "ADCD038C-036F-4C40-826F-61C88CD84DD1",
+                        "mainName": "Zofran",
+                        "genericName": "g",
+                        "description": "d",
+                        "instructions": "i",
+                        "sideEffects": "s",
+                        "dosage": "4mgx2",
+                        "frequency": 3,
+                        "taken": []
+                    },
+                    {
+                        "id": "ADCD038C-036F-4C40-826F-61C88CD84DD2",
+                        "mainName": "Compazine",
+                        "genericName": "g",
+                        "description": "d",
+                        "instructions": "i",
+                        "sideEffects": "s",
+                        "dosage": "10mg",
+                        "frequency": 4,
+                        "taken": []
+                    }
+                ]
+    }
+]
